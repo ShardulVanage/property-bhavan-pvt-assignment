@@ -18,11 +18,11 @@ const Body = () => {
         <p className='font-bold text-lg'>2BHK Apartment for Sale in Newtown, Kolkata, West Bengal</p>
      </div>
      {/* image */}
-     <div className='flex gap-4 px-52'>
-                <div className='w-1/2 hidden md:block'>
+     <div className='flex gap-4 px-52 sm::min-w-max'>
+                <div className='w-1/2 hidden md:block '>
                     <img className='none w-full photo-shadow' src={img} alt="" />
                 </div>
-                <div className='grid grid-cols-2 gap-3 md:w-1/2'>
+                <div className='sm:grid grid-cols-2 gap-3 md:w-1/2 '>
                     <div>
                         <img className='photo-shadow' src={img} alt="" />
                     </div>
